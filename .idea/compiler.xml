@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client-two" />
+        <module name="client_one" />
+        <module name="eureka-server" />
+        <module name="gateway" />
+        <module name="serice-feign" />
+        <module name="sidecar-python" />
+        <module name="springcloud_test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client-two" target="1.8" />
+      <module name="client_one" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server (1)" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="serice-feign" target="1.8" />
+      <module name="sidecar-python" target="1.8" />
+      <module name="springcloud_test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

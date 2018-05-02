@@ -1,0 +1,18 @@
+
+server:
+  port: 5678
+spring:
+  application:
+    name: sidecar
+
+sidecar:
+  port: 8000
+  health-uri: http://localhost:8000/health/
+
+
+eureka:
+  client:
+    serviceUrl:
+      #注册中心的地址
+      defaultZone: http://localhost:8761/eureka/
+debug: true
